@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="options">
+          <ul>
+            <li><a href="#">ROCK</a></li>
+            <li><a href="#">PAPER</a></li>
+            <li><a href="#">SCISSORS</a></li>
+          </ul>
+        </div>
+        <div class="score">
+          <p>SCORE</p>
+          <div class="player">
+            <h3>0</h3>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <button id="rock" class="power rock" value="rock">
+          <img src="./images/icon-rock.svg" alt="Rock" />
+        </button>
+
+        <button id="paper" class="power paper" value="paper">
+          <img src="./images/icon-paper.svg" alt="Paper" />
+        </button>
+
+        <button id="scissors" class="power scissors" value="scissors">
+          <img src="./images/icon-scissors.svg" alt="Scissors" />
+        </button>
+
+        <div class="reta">
+          <div class="interna"></div>
+        </div>
+      </div>
+      <div class="rules">
+        <a href="#">Rules</a>
+      </div>
+    </div>
+
+    <footer>
+      <div>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor</a
+        >
+      </div>
+      <div id="goth">
+        Coded by
+        <a href="https://gothmate.github.io" target="_blank"
+          ><span>Goth</span></a
+        >mate.
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
