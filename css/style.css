@@ -133,6 +133,15 @@ body {
   left: -6rem;
 }
 
+#result-roll {
+  padding: 1rem;
+  font-size: 1.2em;
+  text-align: center;
+}
+#result-roll h3 span, #result-roll p span {
+  color: #834fe3;
+}
+
 .rules a {
   display: grid;
   font-size: 1.5rem;
