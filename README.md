@@ -49,10 +49,13 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/gothmate/rock-paper-scissors_JS)
-- Live Site URL: [Add live site URL here](https://gothmate.github.io/rock-paper-scissors_JS/)
+- Solution URL: [Code](https://github.com/gothmate/rock-paper-scissors_JS)
+- Live Site URL: [Game](https://gothmate.github.io/rock-paper-scissors_JS/)
 
 ## My process
+
+- I've made some changes to the original layout and added some animation to the buttoms.
+- Hope it doesn't put me out of the chalenge rules.
 
 ### Built with
 
